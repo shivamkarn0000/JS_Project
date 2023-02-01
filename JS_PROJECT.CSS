@@ -1,0 +1,517 @@
+* {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#Navbar_UL {
+    display: flex;
+    list-style: none;
+    border: 2px solid green;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+#Navbar_UL>a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Navbar_a {
+    color: green;
+}
+
+.Navbar_a:hover {
+    color: blue;
+}
+
+.Active {
+    color: red;
+}
+
+#Slider {
+    width: auto;
+    height: 70vh;
+    border: 1px solid green;
+    background-size: cover;
+}
+
+#Img_Main_Container {
+    margin-top: 22px;
+}
+
+#Img_Main_Container_Sub {
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    background-color: aliceblue;
+    padding: 22px 0;
+    border-radius: 10px;
+
+}
+
+#Img_Upload_Main_Container {
+    display: flex;
+    width: auto;
+    height: 55vh;
+    border: 1px solid green;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#Img_Upload {
+    width: 210px;
+    height: 250px;
+    border: 1px solid green;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+#Img_Main_Container_Sub_h2 {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    background-color: aliceblue;
+    border: 1px solid green;
+    padding: 22px 0;
+    border-radius: 10px;
+
+}
+
+#Img_Main_Container_Sub_input {
+    color: blue;
+    border: 1px solid green;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 9px 19px;
+    border-radius: 10px;
+}
+
+#Upload_Img_Btn {
+    color: green;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 9px 19px;
+    border-radius: 10px;
+}
+
+#Upload_Img_Btn:hover {
+    color: blue;
+    border: 1px solid green;
+}
+
+#Clear_Button {
+    margin-right: 0;
+    color: green;
+    cursor: pointer;
+    border: 1px solid red;
+    padding: 6px 9px;
+    border-radius: 10px;
+}
+
+#Clear_Button:hover {
+    color: red;
+    border: 1px solid green;
+}
+
+.Blank_Array {
+    width: 210px;
+    height: 235px;
+    border: 1px solid green;
+    background-color: aliceblue;
+    color: red;
+    text-align: center;
+}
+
+#Back_Btn {
+    color: green;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 9px 19px;
+    border-radius: 10px;
+}
+
+#Next_Btn {
+    color: green;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 9px 19px;
+    border-radius: 10px;
+}
+
+#Back_Btn:hover {
+    color: blue;
+    border: 1px solid green;
+}
+
+#Next_Btn:hover {
+    color: blue;
+    border: 1px solid green;
+}
+
+#contact_h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    background-color: aliceblue;
+    border: 1px solid green;
+    padding: 22px 0px;
+    border-radius: 10px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+#Contact_Form_Main_Container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Contact_Form {
+    width: 50%;
+}
+
+#Contact_Form_Main {
+    border: 1px solid green;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#Contact_Form_Main>label {
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#Contact_Form_Main>input {
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: 2px solid green;
+    font-size: 16px;
+    color: green;
+    text-align: center;
+}
+
+#Submit {
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid black !important;
+    padding: 9px 19px !important;
+    font-size: 15px !important;
+}
+
+#Submit:hover {
+    color: blue;
+    border: 1px solid green !important;
+}
+
+
+#Print_Form_Result {
+    border: 1px solid green;
+    background-color: aliceblue;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#Print_Form_Result_h2 {
+    text-align: center;
+    color: blue;
+    border-bottom: 2px solid green;
+}
+
+#Contact_Form_Display_Main_Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+
+}
+
+#Contact_Form_Display_Main_Div>input {
+    padding: 2px 4px;
+    border-radius: 5px;
+    border: 1px solid green;
+    font-size: 15px;
+    color: green;
+    text-align: center;
+    margin-bottom: 11px;
+
+}
+
+.Contact_Form_Button {
+    color: green;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.Contact_Form_Button:hover {
+    color: blue;
+    border: 1px solid green;
+}
+
+.Form_Edit_Delete {
+    color: green;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.Form_Edit_Delete:hover {
+    color: red;
+    border: 1px solid green;
+}
+
+#Display_Result {
+    height: 167px;
+    overflow-x: hidden;
+}
+
+#Contact_Form_Sub_Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+#Contact_Form_Sub_Div>input {
+    padding: 2px 4px;
+    border-radius: 5px;
+    border: 1px solid green;
+    font-size: 15px;
+    color: green;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+#Contact_Form_Sub_btn_div>button {
+    color: green;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#name::placeholder {
+    color: red;
+}
+
+#Phone::placeholder {
+    color: red;
+}
+
+#Address::placeholder {
+    color: red;
+}
+
+footer {
+    margin-left: 30px;
+    margin-right: 28px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid green;
+    background-color: aliceblue;
+    color: green;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#Hembarger {
+    display: none;
+}
+
+.line_1 {
+    width: 39px;
+    height: 4px;
+    border: 2px solid green;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+/* Responsive Dezine */
+
+@media only screen and (max-width: 608px) {
+    #Contact_Form_Main_Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Print_Form_Result {
+        margin-top: 10px;
+    }
+
+    #Contact_Form {
+        width: 95%;
+    }
+
+    #Print_Form_Result {
+        width: 95%;
+
+    }
+
+    #Navbar_Main_Container {
+        display: none;
+    }
+
+    #Hembarger {
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #Navbar_UL {
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #Navbar_UL>a {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 533px) {
+
+    #Img_Upload {
+        width: 150px;
+        height: 198px;
+    }
+
+}
+
+@media only screen and (max-width: 493px) {
+
+    #Contact_Form_Main_Container {
+        margin-top: -19px;
+    }
+
+    #Img_Upload {
+        width: 110px;
+        height: 149px;
+    }
+
+    #Back_Btn {
+        padding: 3px 6px;
+    }
+
+    #Next_Btn {
+        padding: 3px 6px;
+    }
+
+}
+
+@media only screen and (max-width: 403px) {
+    * {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #Img_Upload {
+        width: 75px;
+        height: 96px;
+    }
+
+    #Img_Upload_Main_Container {
+        height: 38vh;
+    }
+
+    #Next_Btn {
+        margin-left: -12px;
+    }
+
+    #Back_Btn {
+        margin-right: -11px;
+    }
+
+    #Clear_Button {
+        padding: 3px 6px;
+    }
+}
+
+@media only screen and (max-width: 313px) {
+
+    #Img_Upload_Main_Container {
+        flex-direction: column;
+    }
+
+    #Back_Btn {
+        margin-right: 0;
+    }
+
+    #Next_Btn {
+        margin-left: 0;
+    }
+
+    #contact_h2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #Contact_Form {
+        width: 100%;
+    }
+
+    #Print_Form_Result {
+        width: 100%;
+    }
+
+    footer {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #Back_Btn {
+        margin-bottom: 10px;
+    }
+
+    .Contact_Form_Button {
+        margin-right: 10px;
+    }
+}
+
+#About_Paragraph{
+    text-align: justify;
+}
